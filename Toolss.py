@@ -163,7 +163,8 @@ while loop:
         break
     elif what == "11":
         os.system("cd /data/data/com.termux/files/home && ls")
-         os.system("cd /data/data/com.termux/files/home && rm -rf toolss  && git clone https://github.com/AnonHackerr/toolss.git")
+        os.system("cd /data/data/com.termux/files/home && rm -rf toolss")
+        os.system("cd /data/data/com.termux/files/home && git clone https://github.com/AnonHackerr/toolss.git")
          print("====================================")
          print("[+] Toolss Updated successfully :)")
          print("====================================")
