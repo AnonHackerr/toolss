@@ -49,7 +49,7 @@ while loop:
         print("[+] nmap installed successfully :)")
         print("[+] Type 'nmap' to start.")
         print("====================================")
-        rmenu = input("[?] Return to the menu? (y/n): ")
+        rmenu = input("[?] Back to Menu? (y/n): ")
         if rmenu == "y":
             menu()
         else:
@@ -63,7 +63,11 @@ while loop:
         print("[+] hydra installed successfully :)")
         print("[+] Type 'hydra' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "3":
         os.system("cd /data/data/com.termux/files/home")
         os.system("pkg update")
@@ -75,7 +79,11 @@ while loop:
         print("[+] SQLMap installed successfully :)")
         print("[+] Go to sqlmap folder and type 'python2 sqlmap.py' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "4":
         os.system("pkg install wget")
         os.system("cd /data/data/com.termux/files/home && wget https://Auxilus.github.io/metasploit.sh")
@@ -89,7 +97,11 @@ while loop:
         print("[+] Metasploit installed successfully :)")
         print("[+] Type 'msfconsole' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "5":
         os.system("pkg update")
         os.system("pkg install -y git")
@@ -99,7 +111,11 @@ while loop:
         print("[+] ngrok installed successfully :)")
         print("[+] Go to ngrok folder and type './ngrok http 80' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "6":
         os.system("pkg update")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Hax4us/Nethunter-In-Termux.git")
@@ -109,7 +125,11 @@ while loop:
         print("[+] Nethunter installed successfully :)")
         print("[+] Go to Nethunter-In-Termux folder and type './kalinethunter' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "7":
         os.system("pkg update")
         os.system("pkg install -y git")
@@ -123,7 +143,11 @@ while loop:
         print("[+] angryFuzzer installed successfully :)")
         print("[+] Go to angryFuzzer folder and type 'python2 angryFuzzer.py' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "8":
         os.system("pkg update")
         os.system("pkg install -y git")
@@ -134,7 +158,11 @@ while loop:
         print("[+] RED_HAWK installed successfully :)")
         print("[+] Go to RED_HAWK folder and type 'php rhawk.php' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "9":
         os.system("pkg update")
         os.system("pkg install -y python2")
@@ -147,7 +175,11 @@ while loop:
         print("[+] weeman installed successfully :)")
         print("[+] Go to weeman folder and type 'python2 weeman.py' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "10":
         os.system("pkg update")
         os.system("pkg install -y git")
@@ -160,14 +192,11 @@ while loop:
         print("[+] IPGeoLocation installed successfully :)")
         print("[+] Go to IPGeoLocation folder and type 'python ipgeolocation.py' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Back to Menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "99":
         print("Bye.")
         break
-
-def return_menu():
-    rmenu = input("[?] Do you want to return to the menu? y/n: ")
-    if rmenu == "y":
-        menu()
-    else:
-        print("Bye.")
