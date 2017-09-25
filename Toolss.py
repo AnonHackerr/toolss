@@ -35,7 +35,7 @@ ONLY FOR TERMUX!
 """)
 
 loop = True
-
+cls = os.system("clear")
 while loop:
     menu()
     what = input("#: ")
@@ -49,8 +49,8 @@ while loop:
         print("[+] Type 'nmap' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -64,8 +64,8 @@ while loop:
         print("[+] Type 'hydra' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -81,8 +81,8 @@ while loop:
         print("[+] Go to sqlmap folder and type 'python2 sqlmap.py' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -100,8 +100,8 @@ while loop:
         print("[+] Type 'msfconsole' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -115,8 +115,8 @@ while loop:
         print("[+] Go to ngrok folder and type './ngrok http 80' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -130,8 +130,8 @@ while loop:
         print("[+] Go to Nethunter-In-Termux folder and type './kalinethunter' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -149,8 +149,8 @@ while loop:
         print("[+] Go to angryFuzzer folder and type 'python2 angryFuzzer.py' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -165,8 +165,8 @@ while loop:
         print("[+] Go to RED_HAWK folder and type 'php rhawk.php' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -183,8 +183,8 @@ while loop:
         print("[+] Go to weeman folder and type 'python2 weeman.py' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
@@ -201,8 +201,8 @@ while loop:
         print("[+] Go to IPGeoLocation folder and type 'python ipgeolocation.py' to start.")
         print("====================================")
         rmenu = input("[?] Back to Menu? (y/n): ")
-        print("====================================")
         if rmenu == "y":
+            cls()
             menu()
         else:
             break
