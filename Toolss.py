@@ -161,14 +161,13 @@ while loop:
         print("[+] Go to IPGeoLocation folder and type 'python ipgeolocation.py' to start.")
         print("====================================")
         break
-    elif what == "11":
-        os.system("cd /data/data/com.termux/files/home && ls")
-        os.system("cd /data/data/com.termux/files/home && rm -rf toolss")
-        os.system("cd /data/data/com.termux/files/home && git clone https://github.com/AnonHackerr/toolss.git")
-         print("====================================")
-         print("[+] Toolss Updated successfully :)")
-         print("====================================")
-         break
     elif what == "99":
         print("Bye.")
         break
+
+def return_menu():
+    rmenu = input("[?] Do you want to return to the menu? y/n: ")
+    if rmenu == "y":
+        menu()
+    else:
+        print("Bye.")
