@@ -14,7 +14,7 @@ def menu():
 Created By AnonHacker
 Channel: youtube.com/kalinuxx
 Facebook: facebook.com/kalinuxtutorials
-Ver: 2.0
+Ver: 1.0
 ----
 ONLY FOR TERMUX!
 ----
@@ -49,7 +49,11 @@ while loop:
         print("[+] nmap installed successfully :)")
         print("[+] Type 'nmap' to start.")
         print("====================================")
-        break
+        rmenu = input("[?] Return to the menu? (y/n): ")
+        if rmenu == "y":
+            menu()
+        else:
+            break
     elif what == "2":
         os.system("cd /data/data/com.termux/files/home")
         os.system("pkg update")
