@@ -14,7 +14,7 @@ def menu():
 Created By AnonHacker
 Channel: youtube.com/kalinuxx
 Facebook: facebook.com/kalinuxtutorials
-Ver: 2.0
+Ver: 1.0
 ----
 ONLY FOR TERMUX!
 ----
@@ -158,8 +158,7 @@ while loop:
         print("====================================")
         break
     elif what == "11":
-         os.system("cd /data/data/com.termux/files/home && rm -rf toolss")
-         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/AnonHackerr/toolss.git")
+         os.system("cd /data/data/com.termux/files/home && rm -rf toolss  && git clone https://github.com/AnonHackerr/toolss.git")
          print("====================================")
          print("[+] Toolss Updated successfully :)")
          print("====================================")
