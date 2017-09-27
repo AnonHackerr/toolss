@@ -10,4 +10,4 @@ chmod +x Tools.py
 python Tools.py
 ```
 # Screenshot
-<img src="https://i.imgur.com/GTqVTDP.png"/>
+<img src="https://i.imgur.com/OhhVPzU.png"/>
