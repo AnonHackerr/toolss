@@ -1,6 +1,6 @@
 # Tools
 
-Automatic program installer for Android [ONLY FOR TERMUX]
+Automatic hacking tools installer for Android [ONLY FOR TERMUX]
 
 
 YouTube Channel: https://www.youtube.com/user/kalinuxx
