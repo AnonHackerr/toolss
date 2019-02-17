@@ -434,6 +434,7 @@ while loop:
             menu()
         else:
             break
+    elif what == "19":
             os.system("pkg update -y")
             os.system("pkg install -y git")
             os.system("pkg install -y python2")
