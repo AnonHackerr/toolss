@@ -19,7 +19,7 @@ Ver: 2.0
 ONLY FOR TERMUX!
 ----
 ==========================================
-00. Turn your Android into Hacking Machine.
+00. Turn your Android Into A Hacking Machine.
 ------------------------------------------
 1. Install Nmap 
 2. Install Hydra
